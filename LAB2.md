@@ -408,3 +408,13 @@ npm run build
 3. Vaya a la dirección de hospedaje en una ventana del navegador (la ventana posiblemente aparecerá automáticamente, pero también puede hacer referencia a la dirección que se encuentra en la ventana del comando) para observar el control en la herramienta de ejecución de pruebas.
   
 ![Imagen 9](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-9.jpg)
+
+# PASO 6: Crear un archivo de solución con Power Apps CLI
+  
+Para crear un archivo de solución con Power Apps CLI, siga los siguientes pasos:
+
+1. En el símbolo del sistema, vaya al directorio del proyecto de componente de Power Apps, que es el proyecto LinearComponent que creó en el ejercicio anterior. Cree una nueva carpeta y llámela Solutions (o cualquier otro nombre que elija) mediante el comando mkdir Solutions. Vaya al directorio usando el comando cd Solutions.
+  
+![Imagen 10](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-10.jpg)
+  
+  
