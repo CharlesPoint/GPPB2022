@@ -407,4 +407,4 @@ npm run build
   
 3. Vaya a la dirección de hospedaje en una ventana del navegador (la ventana posiblemente aparecerá automáticamente, pero también puede hacer referencia a la dirección que se encuentra en la ventana del comando) para observar el control en la herramienta de ejecución de pruebas.
   
-![Imagen 9](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-9.png)
+![Imagen 9](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-9.jpg)
