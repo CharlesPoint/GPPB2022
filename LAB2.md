@@ -179,9 +179,9 @@ private name: string | null;
 }
 ```
 
-```  
 4. Agregue un método _buttonClick_ debajo de _init_ con la siguiente lógica:
-  
+
+``` 
  // The event handler for the button's click event
 public buttonClick() {
   // Get our controls via DOM queries
