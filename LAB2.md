@@ -1,7 +1,7 @@
 
 En este laboratorio vamos a escribir nuestro propio componente de código personalizado: un mensaje Hola mundo que será similar al mostrado en la siguiente imagen:
 
-![Imagen 1](https://docs.microsoft.com/es-es/learn/modules/build-power-app-component/media/picture-1.png)
+![Imagen 1](https://github.com/CharlesPoint/GPPB2022/images/lab2/picture-1.png)
 
 Este componente escuchará los cambios provenientes de la aplicación host y permitirá al usuario realizar cambios que luego se envían a la aplicación host.
 
