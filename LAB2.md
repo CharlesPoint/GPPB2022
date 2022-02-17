@@ -441,7 +441,7 @@ pac solution add-reference --path ..
 msbuild /t:build /restore
 ```
   
-El tipo de paquete de solución predeterminado es Administrado. Si desea exportar como No administrado (o Ambos), puede borrar el comentario (o quitar la marca de comentario) en la siguiente sección desde su Solutions.cdsproj y editar el nodo SolutionPackageType como corresponda:
+El tipo de paquete de solución predeterminado es Administrado. Si desea exportar como No administrado (o Ambos), puede borrar el comentario (o quitar la marca de comentario) en la siguiente sección desde su _Solutions.cdsproj_ y editar el nodo _SolutionPackageType_ como corresponda:
   
 ```
 <!-- Solution Packager overrides un-comment to use: SolutionPackagerType Managed, Unmanaged, Both)-->
@@ -454,3 +454,53 @@ Puede establecer la configuración de msbuild en **Release** para emitir una com
   
 5. Los archivos de solución generados se encuentran en la carpeta \bin\debug\ una vez que la compilación se haya completado correctamente. Puede importar manualmente el archivo zip que se encuentra en bin\Debug o bin\Release, según la configuración de su versión. También puede implementar sus componentes de código mediante programación, utilizando Power Apps CLI
   
+# PASO 7: Probar y depurar el componente de código en la herramienta de ejecución de pruebas de componentes de Power Apps
+  
+Inicie una herramienta de ejecución de pruebas desde un proyecto de componente de Power Apps mediante el uso del comando npm start.
+  
+```
+npm start
+```
+
+Una vez que la herramienta de ejecución de pruebas se ha iniciado, el componente se mostrará en una ventana del explorador.
+  
+![Imagen 9](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-9.jpg)
+  
+ ## Depurar un componente de código mediante la depuración del explorador
+  
+La mayoría de los exploradores modernos integran diversas capacidades de depuración. Microsoft Edge, Google Chrome, Mozilla Firefox y Apple Safari tienen herramientas de desarrollado integradas que permiten experiencias de depuración interactivas.  Para este ejercicio, utilizaremos Microsoft Edge (Chromium).  Inicie DevTools de Microsoft Edge; para hacerlo, presione **F12** en el teclado.
+  
+## Inspeccionar el HTML con la ayuda del panel Elementos
+
+En DevTools, la primera pestaña disponible (Elementos) muestra el panel Elementos, que le ofrece una forma de ver el HTML que se representa en la página. Utilice la funcionalidad Inspeccionar para ir adonde se está representando su control, a la que puede accederse de una de las dos maneras siguientes:
+  
+1. Resalte y haga clic con el botón derecho en un elemento del componente y, a continuación, seleccione **Inspeccionar**.
+  
+![Imagen 13](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-13.png)
+  
+2. Seleccione un elemento en el panel Elementos.
+
+![Imagen 14](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-14.png)
+  
+## Inspeccionar los registros de consola y ejecutar el script en el panel Consola
+  
+Un mecanismo habitual para proporcionar contexto de depuración en el script de cliente es utilizar el método _console.log()_. Si desea proporcionar registro dentro de la lógica del componente, puede usar este método. Estos registros se muestran en el panel de la consola DevTools cada vez que se ejecutan, lo que constituye un método útil para realizar el seguimiento de la lógica a medida que esta se ejecuta en el componente. La siguiente imagen muestra un ejemplo de un par de registros escritos por la herramienta de ejecución de pruebas.
+
+![Imagen 15](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-15.png)
+  
+También tiene la capacidad de ejecutar su propio script desde la consola. Este método puede resultar útil para probar varias llamadas a métodos y lógica desde el contexto de un entorno vivo.
+  
+![Imagen 16](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-16.png)
+  
+## Establecer puntos de interrupción del depurador en el panel Orígenes
+  
+Una de las utilidades más valiosas de DevTools es la capacidad de establecer puntos de interrupción del depurador en su código para que pueda inspeccionar las variables y el flujo de la implementación de su método. Por ejemplo, establezca un punto de interrupción en el archivo _index.ts_ del componente de Power Apps. En el siguiente ejemplo, se establece un punto de interrupción que se ejecutará cada vez que se llame al método _refreshData_.
+  
+![Imagen 17](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-17.png)
+  
+Al hacer clic en el botón del control hola mundo, se alcanza este punto de interrupción, lo que le permite recorrer manualmente la lógica del controlador de eventos. Además, se pueden inspeccionar valores, como los que han cambiado, tal como se muestra en la siguiente imagen:
+
+![Imagen 18](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-18.png)
+
+  
+
