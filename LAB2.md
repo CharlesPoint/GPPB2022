@@ -415,6 +415,42 @@ Para crear un archivo de solución con Power Apps CLI, siga los siguientes pasos
 
 1. En el símbolo del sistema, vaya al directorio del proyecto de componente de Power Apps, que es el proyecto LinearComponent que creó en el ejercicio anterior. Cree una nueva carpeta y llámela Solutions (o cualquier otro nombre que elija) mediante el comando mkdir Solutions. Vaya al directorio usando el comando cd Solutions.
   
-![Imagen 10](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-10.jpg)
+![Imagen 10](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-10.png)
   
+2. Inicialice el proyecto de solución de Dataverse con el siguiente comando:
+  
+```
+pac solution init --publisher-name mslearn --publisher-prefix msl
+```
+  
+En la siguiente imagen se muestra un ejemplo de los resultados que debería ver.
+  
+![Imagen 11](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-11.png)
+  
+3. Conforme el proyecto de solución. Los componentes se agregarán durante la compilación. Para llevar a cabo esta tarea, utilice el siguiente comando:
+  
+```
+pac solution add-reference --path ..
+```
+  
+![Imagen 12](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab2/picture-12.png)
+  
+4. Para generar el archivo .zip de la solución, utilice Microsoft Build Engine (o _MSBuild_). Solo necesitará usar el indicador _/restore_ la primera vez que se compila el proyecto de solución. En cada compilación posterior, deberá ejecutar msbuild únicamente.
+
+```
+msbuild /t:build /restore
+```
+  
+El tipo de paquete de solución predeterminado es Administrado. Si desea exportar como No administrado (o Ambos), puede borrar el comentario (o quitar la marca de comentario) en la siguiente sección desde su Solutions.cdsproj y editar el nodo SolutionPackageType como corresponda:
+  
+```
+<!-- Solution Packager overrides un-comment to use: SolutionPackagerType Managed, Unmanaged, Both)-->
+<PropertyGroup>
+<SolutionPackageType>Unmanaged</SolutionPackageType>
+</PropertyGroup>
+```
+  
+Puede establecer la configuración de msbuild en **Release** para emitir una compilación de producción, por ejemplo, msbuild /p:configuration=Release.
+  
+5. Los archivos de solución generados se encuentran en la carpeta \bin\debug\ una vez que la compilación se haya completado correctamente. Puede importar manualmente el archivo zip que se encuentra en bin\Debug o bin\Release, según la configuración de su versión. También puede implementar sus componentes de código mediante programación, utilizando Power Apps CLI
   
