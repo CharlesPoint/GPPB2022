@@ -1,0 +1,15 @@
+
+En este laboratorio vamos a escribir nuestro propio componente de código personalizado: un mensaje Hola mundo que será similar al mostrado en la siguiente imagen:
+
+![Imagen 1](https://docs.microsoft.com/es-es/learn/modules/build-power-app-component/media/picture-1.png)
+
+Este componente escuchará los cambios provenientes de la aplicación host y permitirá al usuario realizar cambios que luego se envían a la aplicación host.
+
+Siga los siguientes pasos:
+
+# PASO 1: Crear un nuevo proyecto de componente
+
+Para crear un nuevo proyecto de componente, siga estos pasos:
+
+1. Cree un directorio en el que se creará el componente (por ejemplo C:\source\hello-pcf).  Para crear su propio directorio, usará un símbolo del sistema (abrir la ventana **como Adiministrador**. En el directorio de origen, cree un directorio que se llame **hello-pcf** y luego vaya a ese directorio con el comando _cd hello-PCF_:
+
