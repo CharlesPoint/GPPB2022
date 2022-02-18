@@ -24,4 +24,4 @@ Instale [Microsoft Power Apps CLI](https://aka.ms/PowerAppsCLI/).
 
 Para sacar aprovechar todas las funcionalidades más recientes, actualice las herramientas de Power Apps CLI a la última versión mediante este comando: `pac install latest`.
 
-Bienvenido al Global Power Platform Bootcamp 2022 !
+** Bienvenido al Global Power Platform Bootcamp 2022 ! **
