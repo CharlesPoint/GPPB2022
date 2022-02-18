@@ -1,4 +1,6 @@
-# PASO 1: Crear un componente
+## LAB 1 : Crear Componentes en Power Apps
+
+# PASO 1: Crear el componente
 
 1. Inicie sesión en [Power Apps](https://make.powerapps.com/)
 
