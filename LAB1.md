@@ -42,7 +42,7 @@
    Table({Item:"SampleText"})
    ```
 
-  ![Imagen 5](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-5.png)
+  ![Imagen 6](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-6.png)
    
 10. En el componente, inserte un control vertical en blanco **Gallery** y seleccione **Diseño** en el panel de propiedades como **Título**.
 
@@ -62,11 +62,11 @@ A continuación, agregará el componente a una pantalla y especificará una tabl
 
 1. En el panel izquierdo, seleccione la lista de pantallas y luego seleccione la pantalla predeterminada.
 
-  ![Imagen 6](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-6.png)
+  ![Imagen 7](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-7.png)
   
 2. En la pestaña **Insertar**, abra el menú **Componentes** y luego seleccione **MenuComponent**.
 
-  ![Imagen 7](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-7.png)
+  ![Imagen 8](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-8.png)
 
    El nuevo componente se llama **MenuComponent_1** por defecto.
 
@@ -78,7 +78,7 @@ A continuación, agregará el componente a una pantalla y especificará una tabl
 
    Esta instancia se debería parecer a la siguiente imagen, pero puede personalizar el texto y otras propiedades de cada instancia.
   
-  ![Imagen 7](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-7.png)
+  ![Imagen 9](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-9.png)
   
 # PASO 3 : Crear y usar la propiedad de salida
 
@@ -118,7 +118,7 @@ Hasta ahora, hemos creado un componente y se ha añadido a una aplicación. A co
   
   Hay ocasiones en las que un componente puede querer compartir un origen de datos o una variable con su host. Especialmente cuando el componente solo está diseñado para usarse en una aplicación en particular. Para estos casos, puede acceder directamente a la información a nivel de la aplicación activando el conmutador Acceder al alcance de la aplicación en el panel de propiedades del componente:
   
-  
+   ![Imagen 12](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-12.png)
 
 
 
