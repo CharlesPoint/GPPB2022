@@ -75,7 +75,7 @@ A continuación, agregará el componente a una pantalla y especificará una tabl
 3. Establezca la propiedad **Items** de **MenuComponent_1** a esta fórmula:
 
    ```
-   Table({Item:"Home"}, {Item:"Admin"}, {Item:"About"}, {Item:"Help"})
+   Table({Item:"Home"}; {Item:"Admin"}; {Item:"About"}; {Item:"Help"})
    ```
 
    Esta instancia se debería parecer a la siguiente imagen, pero puede personalizar el texto y otras propiedades de cada instancia.
