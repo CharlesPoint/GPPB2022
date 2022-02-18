@@ -106,11 +106,11 @@ Hasta ahora, hemos creado un componente y se ha añadido a una aplicación. A co
   
   6. En la pantalla predeterminada de la aplicación, agregue una etiqueta y configure su propiedad Text en esta expresión, ajustando el número en el nombre del componente si es necesario:
 
-    ```
+ ```
    MenuComponent_1.Selected
-   ```
+```
   
-   **MenuComponent_1** es el nombre predeterminado de una instancia, no el nombre de la definición del componente. Puede cambiar el nombre de cualquier instancia.
+ **MenuComponent_1** es el nombre predeterminado de una instancia, no el nombre de la definición del componente. Puede cambiar el nombre de cualquier instancia.
   
   7. Mientras mantiene presionada la tecla Alt, seleccione cada elemento en el menú.
   
