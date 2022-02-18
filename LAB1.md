@@ -14,7 +14,7 @@
 
 5. Seleccione el nuevo componente en el panel izquierdo, seleccione los puntos suspensivos (...) y luego seleccione **Cambiar nombre**. Escriba o pegue el nombre como **MenuComponent**.
 
-6. En el panel de la derecha, establezca el ancho del componente como **150** y su altura como **250** y luego seleccione **Nueva propiedad personalizada**. También puede establecer el alto y el ancho en cualquier otro valor, según corresponda.
+6. En el panel de la derecha, establezca el ancho del componente como **150** y su altura como **250** y luego seleccione **Nueva propiedad personalizada**.
 
   ![Imagen 2](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-2.png)
 
