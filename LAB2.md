@@ -18,7 +18,7 @@ Para crear un nuevo proyecto de componente, siga estos pasos:
 2. Inicialice el proyecto de componente mediante Power Apps CLI a través del siguiente comando:
 
 ```
-pac pcf init --namespace SampleNamespace --name HelloPCF --template field
+pac pcf init --namespace GPPB2022Namespace --name HelloPCF --template field
 ```
 
 En la siguiente imagen se muestra un ejemplo del resultado que debería ver.
@@ -61,7 +61,7 @@ En este paso vamos a actualizar el archivo de manifiesto para representar con pr
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="SampleNamespace" constructor="HelloPCF" version="1.0.0" display-name-key="Hello PCF" description-key="Says hello" control-type="standard">
+  <control namespace="GPPB2022Namespace" constructor="HelloPCF" version="1.0.0" display-name-key="Hello PCF" description-key="Says hello" control-type="standard">
     <property name="Name" display-name-key="Name" description-key="A name" of-type="SingleLine.Text" usage="bound" required="true" />
     <resources>
       <code path="index.ts" order="1"/>
@@ -420,7 +420,7 @@ Para crear un archivo de solución con Power Apps CLI, siga los siguientes pasos
 2. Inicialice el proyecto de solución de Dataverse con el siguiente comando:
   
 ```
-pac solution init --publisher-name mslearn --publisher-prefix msl
+pac solution init --publisher-name GPPB2022 --publisher-prefix pbc
 ```
   
 En la siguiente imagen se muestra un ejemplo de los resultados que debería ver.
