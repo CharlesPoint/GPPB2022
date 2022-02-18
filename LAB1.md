@@ -30,7 +30,7 @@
 
   ![Imagen 4](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-4.png)
 
-   La propiedad **Items** se establece en un valor predeterminado según el tipo de datos que especificó. Puede establecerla en un valor que se adapte a sus necesidades. Si especificó un tipo de datos de **Tabla** o **Registro**, es posible que desee cambiar el valor de la propiedad **Items** para que coincida con el esquema de datos que desea introducir en el componente. En este caso, lo cambiará a una lista de cadenas.
+   La propiedad **Items** se establece en un valor predeterminado según el tipo de datos que se especifique. Como se especificó un tipo de datos de **Tabla** o **Registro**, es posible que desee cambiar el valor de la propiedad **Items** para que coincida con el esquema de datos que desea introducir en el componente. En este caso, lo cambiará a una lista de cadenas.
 
    Puede establecer el valor de la propiedad en la barra de fórmulas si selecciona el nombre de la propiedad en la pestaña **Propiedades** del panel de la derecha.
 
