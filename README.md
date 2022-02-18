@@ -1,4 +1,8 @@
-# GPPB2022
+# GPPB2022 - Introducción a Componentes y PowerApps Component Framework
+
+# Pre-Requisitos: Suscribirse al Plan de Desarrollador de Power Apps
+
+Suscribirse al [plan de desarrollador de Power Apps](https://docs.microsoft.com/es-es/powerapps/maker/developer-plan)
 
 # Pre-Requisitos: Instalar Power Apps CLI
 
