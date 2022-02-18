@@ -90,7 +90,7 @@ Hasta ahora, hemos creado un componente y se ha añadido a una aplicación. A co
 
 2. En el panel de la derecha, seleccione la pestaña **Propiedades** y luego **Nueva propiedad personalizada**.
 
-3. En los cuadros **Nombre para mostrar**, **Nombre de la propiedad** y **Descripción**, escriba o pegue **Seleccionado**.
+3. En los cuadros **Nombre para mostrar**, **Nombre de la propiedad** y **Descripción**, escriba o pegue **Selected**.
 
 4. Debajo **Tipo de propiedad**, seleccione **Salida** y luego seleccione **Crear**.
 
