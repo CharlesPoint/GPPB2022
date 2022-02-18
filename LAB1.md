@@ -121,6 +121,7 @@ Hasta ahora, hemos creado un componente y se ha añadido a una aplicación. A co
   Hay ocasiones en las que un componente puede querer compartir un origen de datos o una variable con su host. Especialmente cuando el componente solo está diseñado para usarse en una aplicación en particular. Para estos casos, puede acceder directamente a la información a nivel de la aplicación activando el conmutador Acceder al alcance de la aplicación en el panel de propiedades del componente:
   
    ![Imagen 12](https://github.com/CharlesPoint/GPPB2022/blob/main/Images/Lab1/picture-12.png)
+   
 
 
 
