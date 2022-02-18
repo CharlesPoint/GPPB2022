@@ -1,4 +1,4 @@
-## LAB 1 : Crear Componentes en Power Apps
+# LAB 1 : Crear Componentes en Power Apps
 
 # PASO 1: Crear el componente
 
