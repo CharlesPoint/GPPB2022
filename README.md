@@ -18,7 +18,7 @@ Si aún no tiene instalado Visual Studio 2017 o una versión posterior, realice 
 
 - Opción 1: Instalar [Visual Studio 2019](https://docs.microsoft.com/es-es/visualstudio/install/install-visual-studio) o una versión posterior.
 
-- Opción 2: Instalar [Build Tools para Visual Studio 2019](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019) y luego instalar [Visual Studio Code](https://code.visualstudio.com/Download/).
+- Opción 2: Instalar [Build Tools para Visual Studio 2019](https://visualstudio.microsoft.com/es/visual-cpp-build-tools/) y luego instalar [Visual Studio Code](https://code.visualstudio.com/Download/).
 
 Instale [Microsoft Power Apps CLI](https://aka.ms/PowerAppsCLI/).
 
