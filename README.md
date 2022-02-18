@@ -28,4 +28,4 @@ Para sacar aprovechar todas las funcionalidades más recientes, actualice las he
 
 [LAB 1 : Crear Componentes en Power Apps](https://github.com/CharlesPoint/GPPB2022/blob/main/LAB1.md)
 
-[# LAB 2 : Crear un componente a medida con Power Apps Component Framework (PCF)](https://github.com/CharlesPoint/GPPB2022/blob/main/LAB2.md)
+[LAB 2 : Crear un componente a medida con Power Apps Component Framework (PCF)](https://github.com/CharlesPoint/GPPB2022/blob/main/LAB2.md)
